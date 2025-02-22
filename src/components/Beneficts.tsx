@@ -1,0 +1,32 @@
+import { faHandHolding, IconDefinition } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+import "../assets/beneficts.css"
+
+export default function Beneficts() {
+    const benefictsList: { title: string, description: string, icon: IconDefinition }[] = [
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+    ]
+
+    return <section className="block beneficts-block">
+        <h4>Beneficts that we provide</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</p>
+        <div className="beneficts-grid">
+            {benefictsList.map(el => {
+                return <div key={Math.random()}>
+                    <div className="icon">
+                        <FontAwesomeIcon icon={el.icon} />
+                    </div>
+
+                    <h5>{el.title}</h5>
+                    <p>{el.description}</p>
+                </div>
+            })}
+        </div>
+    </section>
+}
