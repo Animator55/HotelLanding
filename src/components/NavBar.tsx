@@ -2,7 +2,7 @@ import "../assets/navbar.css"
 
 export default function NavBar () {
     const points = [
-        "Top",
+        "Book Now",
         "Beneficts",
         "Process",
         "Services",
