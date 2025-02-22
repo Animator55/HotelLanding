@@ -82,22 +82,27 @@ export default function Clients() {
         </div>
     }
     const prevIndex = carrouselIndex - 1 === -1 ? (clientsList.length - 1) : (carrouselIndex - 1)
-    const prevprevIndex = prevIndex - 1 === -1 ? (clientsList.length - 1) : (prevIndex - 1)
     const nexIndex = carrouselIndex + 1 === clientsList.length ? 0 : (carrouselIndex + 1)
-    const nexnexIndex = nexIndex + 1 === clientsList.length ? 0 : (nexIndex + 1)
 
-    return <section className="block">
+    const move = (index: number, toLeft: boolean)=>{
+        let carrousel = document.querySelector(".carrousel") as HTMLDivElement
+        if(carrousel) carrousel.classList.add(toLeft ? "rotate-toLeft": "rotate-toRight")
+            setTimeout(()=>{
+                setIndex(index)
+                if(carrousel) carrousel.classList.remove(toLeft ? "rotate-toLeft": "rotate-toRight")
+        }, 300)
+    }
+
+    return <section className="block" id="Clients">
         <h4>What our Clients say</h4>
         <div className="carrousel">
-            <button onClick={() => { setIndex(prevIndex) }}>
+            <button onClick={() => { move(prevIndex, true) }}>
                 <FontAwesomeIcon icon={faCaretLeft} />
             </button>
-            <QuoteItem index={prevprevIndex} />
             <QuoteItem index={prevIndex} />
             <QuoteItem index={carrouselIndex} />
             <QuoteItem index={nexIndex} />
-            <QuoteItem index={nexnexIndex} />
-            <button onClick={() => { setIndex(nexIndex) }}>
+            <button onClick={() => { move(nexIndex, false) }}>
                 <FontAwesomeIcon icon={faCaretRight} />
             </button>
         </div>

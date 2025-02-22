@@ -1,6 +1,7 @@
 .process-block {
     display: flex;
     gap: 1rem;
+    padding: 1rem;
 }
 .process-block > div {
     width: 100%;

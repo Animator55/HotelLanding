@@ -13,7 +13,7 @@ export default function Beneficts() {
         { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
     ]
 
-    return <section className="block beneficts-block">
+    return <section className="block beneficts-block" id="Beneficts">
         <h4>Beneficts that we provide</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</p>
         <div className="beneficts-grid">
