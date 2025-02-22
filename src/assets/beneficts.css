@@ -1,0 +1,32 @@
+.beneficts-block > p{
+    margin: 1rem 2rem;
+}
+
+.beneficts-grid {
+    display: grid;
+    padding: 1rem 5rem;
+    gap: 1rem 2%;
+    grid-template-columns: 32% 32% 32%;
+}
+
+.beneficts-grid > div {
+    box-shadow: 0 0 5px gray;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 8px;
+}
+.beneficts-grid > div > .icon {
+    background-color: blue;
+    min-width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.beneficts-grid > div > h5 {
+    font-size: 1rem;
+}
