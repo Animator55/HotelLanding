@@ -3,8 +3,8 @@ import "../assets/navbar.css"
 export default function NavBar () {
     const points = [
         "Top",
+        "Beneficts",
         "Process",
-        "Benefics",
         "Services",
         "Clients",
         "Contact",
@@ -18,6 +18,6 @@ export default function NavBar () {
                 return <a key={Math.random()} href={"#"+id}>{id}</a>
             })}
         </ul>
-        <button>Sign Up</button>
+        <button className="sign-in">Sign Up</button>
     </nav>
 }

@@ -11,7 +11,7 @@ export default function Process() {
         { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
     ]
 
-    return <section className="process-block">
+    return <section className="process-block" id="Process">
         <div>
             <div className="image-process"></div>
             <div className="image-process"></div>
