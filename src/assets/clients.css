@@ -1,11 +1,23 @@
+.clients-block {
+    padding: 5rem 0rem 3rem!important;
+}
+
+.rotate-toRight > button {
+    pointer-events: none;
+}
+.rotate-toLeft > button {
+    pointer-events: none;
+}
+
 .carrousel > button {
     position: absolute;
     top: 0;
     height: 100%;
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
     z-index: 4;
     left: 0;
+    font-size: 2rem;
 }
 
 .carrousel > button:last-child {

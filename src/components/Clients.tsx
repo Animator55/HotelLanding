@@ -93,7 +93,7 @@ export default function Clients() {
         }, 300)
     }
 
-    return <section className="block" id="Clients">
+    return <section className="block clients-block" id="Clients">
         <h4>What our Clients say</h4>
         <div className="carrousel">
             <button onClick={() => { move(prevIndex, true) }}>
