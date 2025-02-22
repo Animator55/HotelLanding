@@ -1,0 +1,29 @@
+body {
+    --cblack: #1e1e20;
+    --cmain: #8741f7; 
+    color: var(--cblack);
+    background-color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding: 3rem 0;
+}
