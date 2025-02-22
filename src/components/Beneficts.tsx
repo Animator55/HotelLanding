@@ -5,12 +5,12 @@ import "../assets/beneficts.css"
 
 export default function Beneficts() {
     const benefictsList: { title: string, description: string, icon: IconDefinition }[] = [
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
-        { title: "Afinago", description: "Lofgniasgniangkafn kanfknsagnak e kagksdngk sg sj fnskn skn sn ksmgskgfnesdkgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
+        { title: "Afinago", description: "Lofgniasgni angkafn fao n na ma sj fnskn skn sn ksmgsk gfne sd kgnsk.", icon: faHandHolding },
     ]
 
     return <section className="block beneficts-block">
