@@ -13,7 +13,9 @@
 .navigation-list {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    width: 40%;
+    justify-content: space-around;
+    gap: .7rem;
     padding: 0;
     margin: 0;
 }
@@ -22,6 +24,7 @@
     background-color: transparent;
     color: var(--cblack);
     text-decoration: none;
+    font-size: .7rem;
 }
 
 .sign-in {
