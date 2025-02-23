@@ -7,10 +7,10 @@ export default function Footer () {
         <section className="footer">
 
             <div className="footer-column">
-                <h3>
+                <h2>
                     <FontAwesomeIcon icon={faHSquare}/>
                     otelLanding
-                </h3>
+                </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Magni totam.</p>
             </div>
