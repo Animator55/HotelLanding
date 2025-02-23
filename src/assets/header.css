@@ -8,15 +8,15 @@
 }
 
 .image-header {
-    width: 100%;
+    width: 120dvw;
     height: 56dvh;
-    object-fit: none;
+    object-fit: cover;
     animation: scrollImage 60s infinite linear;
 }
 @keyframes scrollImage {
     0% {object-position: 0px; opacity: 0;}
     1% {opacity: 1;}
-    100% {object-position: calc(100dvw - 1920px);opacity: 0;}
+    100% {object-position: calc(-10dvw);opacity: 0;}
     99% {opacity: 1;}
 }
 
