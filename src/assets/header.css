@@ -8,9 +8,16 @@
 }
 
 .image-header {
-    background-color: red;
     width: 100%;
     height: 56dvh;
+    object-fit: none;
+    animation: scrollImage 60s infinite linear;
+}
+@keyframes scrollImage {
+    0% {object-position: 0px; opacity: 0;}
+    1% {opacity: 1;}
+    100% {object-position: calc(100dvw - 1920px);opacity: 0;}
+    99% {opacity: 1;}
 }
 
 .header-block > h1 {
@@ -30,6 +37,7 @@
     position: absolute;
     align-items: center;
     gap: 1rem;
+    z-index: 2;
 }
 
 .input-container {

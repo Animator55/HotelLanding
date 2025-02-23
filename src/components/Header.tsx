@@ -1,4 +1,5 @@
 import "../assets/header.css"
+import main from "../assets/images/main.jpg"
 
 export default function Header () {
 
@@ -31,8 +32,6 @@ export default function Header () {
                 Book Now
             </button>
         </section>
-        <div className="image-header">
-
-        </div>
+        <img className="image-header" src={main}/>
     </header>
 }
