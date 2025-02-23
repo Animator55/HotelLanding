@@ -1,5 +1,9 @@
-.beneficts-block > p{
+.beneficts-block>p {
     margin: 1rem 2rem 1.5rem;
+    width: 50%;
+    text-align: center;
+    color: gray;
+    font-size: .75rem;
 }
 
 .beneficts-grid {
@@ -9,8 +13,8 @@
     grid-template-columns: 32% 32% 32%;
 }
 
-.beneficts-grid > div {
-    box-shadow: 0 0 10px lightgray;
+.beneficts-grid>div {
+    box-shadow: 0 0 10px var(--cgray);
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -19,8 +23,9 @@
     border-radius: 8px;
     text-align: center;
 }
-.beneficts-grid > div > .icon {
-    background-color: lightgray;
+
+.beneficts-grid>div>.icon {
+    background-color: var(--cmain);
     min-width: 3rem;
     height: 3rem;
     display: flex;
@@ -28,11 +33,14 @@
     align-items: center;
     border-radius: 50%;
     margin-bottom: .5rem;
+    color: #fff;
 }
-.beneficts-grid > div > h5 {
+
+.beneficts-grid>div>h5 {
     font-size: 1rem;
 }
-.beneficts-grid > div > p {
+
+.beneficts-grid>div>p {
     font-size: .8rem;
     color: gray;
 }

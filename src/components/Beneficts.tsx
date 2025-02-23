@@ -1,4 +1,4 @@
-import { faCar, faConciergeBell, faCreditCard, faDumbbell, faHandHolding, faUtensils, faWifi, IconDefinition } from "@fortawesome/free-solid-svg-icons"
+import { faCar, faConciergeBell, faCreditCard, faDumbbell, faUtensils, faWifi, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import "../assets/beneficts.css"
@@ -15,8 +15,8 @@ export default function Beneficts() {
       
 
     return <section className="block beneficts-block" id="Beneficts">
-        <h4>Beneficts that we provide</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem.</p>
+        <h4><b style={{color: "var(--cmain)"}}>Beneficts</b> that we provide</h4>
+        <p>Enjoy a comfortable stay with our top-notch services and facilities.</p>
         <div className="beneficts-grid">
             {benefictsList.map(el => {
                 return <div key={Math.random()}>

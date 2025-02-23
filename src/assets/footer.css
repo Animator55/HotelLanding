@@ -4,6 +4,15 @@
     grid-template-columns: 28% 20% 20% 20%;
     gap: 4%;
 }
+.footer-column>h3 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-column >h3 >svg{
+    font-size: 1.5rem;
+}
 
 .footer-column {
     width: 100%;

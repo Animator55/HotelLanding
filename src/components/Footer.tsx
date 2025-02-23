@@ -1,4 +1,4 @@
-import { faMapMarker, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faHSquare, faMapMarker, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../assets/footer.css"
 
@@ -7,11 +7,12 @@ export default function Footer () {
         <section className="footer">
 
             <div className="footer-column">
-                <h3>Logo</h3>
+                <h3>
+                    <FontAwesomeIcon icon={faHSquare}/>
+                    otelLanding
+                </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Magni itaque dolore nemo, illum id optio tempore velit totam.</p>
-                {/* <div>
-                </div> */}
+                    Magni totam.</p>
             </div>
             <div className="footer-column">
                 <h2>About</h2>

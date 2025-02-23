@@ -55,10 +55,11 @@
 }
 
 .search-div button {
-    background-color: blue;
+    background-color: var(--cmain);
     padding: 1rem;
     display: flex;
     align-items: center;
+    font-weight: bold;
     justify-content: center;
     color: white;
     border-radius: 7px;

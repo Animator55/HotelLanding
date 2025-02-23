@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../assets/navbar.css"
+import { faHSquare } from "@fortawesome/free-solid-svg-icons"
 
 export default function NavBar () {
     const points = [
@@ -11,7 +13,10 @@ export default function NavBar () {
     ]
 
     return <nav className="nav-bar">
-        <h3>Logo</h3>
+        <h3>
+            <FontAwesomeIcon icon={faHSquare}/>
+            otelLanding
+        </h3>
         
         <ul className="navigation-list">
             {points.map(id=>{

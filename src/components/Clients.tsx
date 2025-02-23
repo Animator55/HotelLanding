@@ -63,8 +63,8 @@ export default function Clients() {
         return <div className="quote-item">
             <img src={ quoteData.image}/>
             <div className="quote-content">
-                <p>{quoteData.quote}</p>
-                <h6>{quoteData.name}</h6>
+                <p>"{quoteData.quote}"</p>
+                <h5>{quoteData.name}</h5>
                 <p className="title">{quoteData.description}</p>
             </div>
         </div>
@@ -82,7 +82,7 @@ export default function Clients() {
     }
 
     return <section className="block clients-block" id="Clients">
-        <h4>What our Clients say</h4>
+        <h4>What our <b style={{color: "var(--cmain)"}}>Clients</b> say</h4>
         <div className="carrousel">
             <button onClick={() => { move(prevIndex, true) }}>
                 <FontAwesomeIcon icon={faCaretLeft} />

@@ -55,7 +55,7 @@
 .process-list>li {
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 0 5px lightgray;
+    box-shadow: 0 0 5px var(--cgray);
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -63,7 +63,8 @@
 }
 
 .process-list>li>.icon {
-    background-color: lightgray;
+    background-color: var(--cmain);
+    color: #fff;
     min-width: 3rem;
     height: 3rem;
     display: flex;

@@ -1,4 +1,4 @@
-import { faBed, faCheckCircle, faFileAlt, faHandHolding, faSearch, IconDefinition } from "@fortawesome/free-solid-svg-icons"
+import { faBed, faCheckCircle, faFileAlt, faSearch, IconDefinition } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import img1 from "../assets/images/outside.jpg"
@@ -27,7 +27,7 @@ export default function Process() {
             </div>
         </div>
         <div>
-            <h4>The Process how we work</h4>
+            <h4>The <b style={{color:"var(--cmain)"}}>Process</b> how we work</h4>
             <ul className="process-list">
                 {processList.map(el => {
                     return <li key={Math.random()}>

@@ -11,8 +11,8 @@ export default function Popular () {
     ]
 
     return <section id="Services" className="block popular-block">
-        <h3>Most Popular Rooms</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aliquid fugiat.</p>
+        <h3>Most <b style={{color:"var(--cmain)"}}>Popular</b> Rooms</h3>
+        <p>Discover our guests' favorite rooms, designed for comfort and style.</p>
         <ul className="popular-list">
             {popularRooms.map(el=>{
                 return <div className="room-card" key={Math.random()}>
