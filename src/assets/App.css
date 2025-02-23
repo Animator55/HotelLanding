@@ -1,9 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     --cblack: #1e1e20;
-    --cmain: #8741f7; 
+    --cmain: #6819e6;
+    --cgray: #dbdbdb;
     color: var(--cblack);
     margin: 0;
     background-color: #fff;
+}
+
+* {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
 }
 
 main {
@@ -18,7 +27,14 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -30,7 +46,8 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 5rem 1rem 3rem;
 }
 
-input, select {
+input,
+select {
     border: none;
     outline: none;
     padding: .5rem 1rem;
