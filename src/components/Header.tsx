@@ -3,11 +3,11 @@ import main from "../assets/images/main.jpg"
 
 export default function Header () {
 
-    return <header className="header-block" id="Book Now">
+    return <header className="header-block" id="Search">
         <h1>Explore Your Desired Hotel All Over The World</h1>
         <section className="search-div">
             <div className="input-container">
-                <p>Search</p>
+                <p>Location</p>
                 <input autoComplete="address" placeholder="Type the place"/>
             </div>
             <div className="input-container">
@@ -29,7 +29,7 @@ export default function Header () {
                 </select>
             </div>
             <button>
-                Book Now
+            Search
             </button>
         </section>
         <img className="image-header" src={main}/>
