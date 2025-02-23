@@ -10,7 +10,7 @@
 }
 
 .beneficts-grid > div {
-    box-shadow: 0 0 5px gray;
+    box-shadow: 0 0 10px lightgray;
     padding: 1rem;
     display: flex;
     flex-direction: column;
